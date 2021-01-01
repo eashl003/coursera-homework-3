@@ -1,0 +1,78 @@
+/*
+p {
+	background-color: #999999;
+	color: #000000;
+	text-decoration: none;
+	padding: 0px;
+}
+*/
+.navbar{
+	float:left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #999999;
+  position: relative;
+}
+
+.topnav a {
+
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+
+body > h1 {
+	font-family: cursive;
+	color: #000000;
+	text-align: center;
+}
+
+/* remove line under Food, LLC*/
+a:link {
+	text-decoration: none;
+}
+
+
+div > div {
+	background-color: #999999;
+	text-align: center;
+	font-family:cursive;
+	color: black;
+	margin: 15px;
+}
+
+h2, h3, h4 {
+	font-size: 20px;
+	margin-bottom: 2px;
+
+}
+
+div > p {
+	margin-top: 2px;
+	font-size: 15px;
+}
+

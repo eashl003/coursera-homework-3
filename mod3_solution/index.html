@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/stylesheet.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    
+	    <!--<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>*/-->
+    </head>
+
+ <body>
+ 	<h1>Our Menu</h1>
+ 	<header>
+    	<nav id="header-nav" class="topnav">
+    		<a href="#home" class="active">Food, LLC</a>
+    			<div id="myLinks">
+    				<a href="#chicken">Chicken</a>
+				    <a href="#beef">Beef</a>
+				    <a href="#sushi">Sushi</a>
+				</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+    		<!--end of menu button -->
+    	</nav>
+  	</header> <!--end of Food, LLC nav-->
+
+
+
+ <div class="row">
+  <div class="col-lg-3 col-md-4 col-sm-6"><h2>Chicken</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod.</p>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6"><h3>Beef</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod.</p>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 "><h4>Sushi</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod.</p>
+  </div>
+  
+</div>  
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+ 
