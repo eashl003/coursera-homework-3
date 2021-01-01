@@ -6,6 +6,11 @@ p {
 	padding: 0px;
 }
 */
+
+body {
+  font-family: cursive, sans-serif;
+}
+
 .navbar{
 	float:left;
 }
@@ -23,15 +28,27 @@ p {
   text-decoration: none;
   font-size: 17px;
   display: block;
+
 }
+
+
 
 .topnav #myLinks {
   display: none;
+  text-align: center;
 }
 
 .topnav a.icon {
-  float: right;
+  background: #999999;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 2px solid black;
+  padding: 2px;
 }
+
+
 
 .topnav a:hover {
   background-color: #ddd;
